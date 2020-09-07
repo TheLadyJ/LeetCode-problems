@@ -44,7 +44,7 @@ public class SearchInsertPosition {
 
 	}
 	
-	//Time efficiency O(n)
+	//Runtime of O(n)
 	public int searchInsert(int[] nums, int target) {
 	     if(target < nums[0]){
 	        return 0;
@@ -66,7 +66,7 @@ public class SearchInsertPosition {
 	
 	
 	
-	//Time efficiency O(log n)
+	//Runtime of O(log n)
 	public int searchInsertBinary(int[] nums, int target) {
 		int mid=0;
 		int start = 0;
