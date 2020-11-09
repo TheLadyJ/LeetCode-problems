@@ -1,4 +1,4 @@
-package easy;
+package main;
 
 public class Sqrt {
 
